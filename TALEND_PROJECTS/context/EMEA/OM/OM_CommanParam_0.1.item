@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tIW-YOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tIW-YeuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/OUT_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIW-YuuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="CONTEXT_FILE_DIR"/>
+    <contextParameter xmi:id="_tIW-Y-uzEeyrrccT1fvlcQ" comment="" name="Epicx_OM_Archive" prompt="Epicx_OM_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tIW-ZOuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV Files&quot;"/>
+    <contextParameter xmi:id="_tIW-ZeuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-ZuuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/&quot;"/>
+    <contextParameter xmi:id="_tIW-Z-uzEeyrrccT1fvlcQ" comment="" name="INCR_OBJECT_LIST" prompt="INCR_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/INCR_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-aOuzEeyrrccT1fvlcQ" comment="" name="FULL_OBJECT_LIST" prompt="FULL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/FULL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-aeuzEeyrrccT1fvlcQ" comment="" name="IDL_OBJECT_LIST" prompt="IDL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/IDL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-auuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_DIR" prompt="IDW_SFTP_CTRL_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/infa_shared/INT_GRD_EO_2_DEV/OSP_DIR/idw7008/LATAM/CtrlFiles/&quot;"/>
+    <contextParameter xmi:id="_tIW-a-uzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_NAME" prompt="IDW_SFTP_CTRL_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;WF_OM_LATAM_REPLICATION_*.CTRL&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIW-bOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tIW-beuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/OUT_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIW-buuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="CONTEXT_FILE_DIR"/>
+    <contextParameter xmi:id="_tIW-b-uzEeyrrccT1fvlcQ" comment="" name="Epicx_OM_Archive" prompt="Epicx_OM_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tIW-cOuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV Files&quot;"/>
+    <contextParameter xmi:id="_tIW-ceuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-cuuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/&quot;"/>
+    <contextParameter xmi:id="_tIW-c-uzEeyrrccT1fvlcQ" comment="" name="INCR_OBJECT_LIST" prompt="INCR_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/INCR_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-dOuzEeyrrccT1fvlcQ" comment="" name="FULL_OBJECT_LIST" prompt="FULL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/FULL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-deuzEeyrrccT1fvlcQ" comment="" name="IDL_OBJECT_LIST" prompt="IDL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/IDL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-duuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_DIR" prompt="IDW_SFTP_CTRL_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/infa_shared/INT_GRD_EO_2_DEV/OSP_DIR/idw7008/LATAM/CtrlFiles/&quot;"/>
+    <contextParameter xmi:id="_tIW-d-uzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_NAME" prompt="IDW_SFTP_CTRL_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIW-eOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tIW-eeuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/OUT_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIW-euuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="CONTEXT_FILE_DIR"/>
+    <contextParameter xmi:id="_tIW-e-uzEeyrrccT1fvlcQ" comment="" name="Epicx_OM_Archive" prompt="Epicx_OM_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tIW-fOuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV Files&quot;"/>
+    <contextParameter xmi:id="_tIW-feuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-fuuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/&quot;"/>
+    <contextParameter xmi:id="_tIW-f-uzEeyrrccT1fvlcQ" comment="" name="INCR_OBJECT_LIST" prompt="INCR_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/INCR_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-gOuzEeyrrccT1fvlcQ" comment="" name="FULL_OBJECT_LIST" prompt="FULL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/FULL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-geuzEeyrrccT1fvlcQ" comment="" name="IDL_OBJECT_LIST" prompt="IDL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/IDL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-guuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_DIR" prompt="IDW_SFTP_CTRL_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-g-uzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_NAME" prompt="IDW_SFTP_CTRL_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIW-hOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tIW-heuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/OUT_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIW-huuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="CONTEXT_FILE_DIR"/>
+    <contextParameter xmi:id="_tIW-h-uzEeyrrccT1fvlcQ" comment="" name="Epicx_OM_Archive" prompt="Epicx_OM_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tIW-iOuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV Files&quot;"/>
+    <contextParameter xmi:id="_tIW-ieuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-iuuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/&quot;"/>
+    <contextParameter xmi:id="_tIW-i-uzEeyrrccT1fvlcQ" comment="" name="INCR_OBJECT_LIST" prompt="INCR_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/INCR_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-jOuzEeyrrccT1fvlcQ" comment="" name="FULL_OBJECT_LIST" prompt="FULL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/FULL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-jeuzEeyrrccT1fvlcQ" comment="" name="IDL_OBJECT_LIST" prompt="IDL_OBJECT_LIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/OM/Context/IDL_OBJECT_LIST/&quot;"/>
+    <contextParameter xmi:id="_tIW-juuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_DIR" prompt="IDW_SFTP_CTRL_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIW-j-uzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_CTRL_NAME" prompt="IDW_SFTP_CTRL_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_cvJkAGxVEeuIbKsc2obvcA" name="OM_LandDB" id="_6Q7cUGxUEeuIbKsc2obvcA" label="OM_LandDB" dataPackage="_Sm4QEHHSEeupg61aHgZVug _Sm4QEXHSEeupg61aHgZVug _Sm4QEnHSEeupg61aHgZVug _Sm4QE3HSEeupg61aHgZVug _Sm4QFHHSEeupg61aHgZVug _Sm4QFXHSEeupg61aHgZVug _Sm4QFnHSEeupg61aHgZVug _Sm4QF3HSEeupg61aHgZVug _Sm4QGHHSEeupg61aHgZVug _Sm4QGXHSEeupg61aHgZVug _Sm4QGnHSEeupg61aHgZVug _Sm4QG3HSEeupg61aHgZVug _Sm4QHHHSEeupg61aHgZVug _Sm4QHXHSEeupg61aHgZVug _Sm4QHnHSEeupg61aHgZVug _Sm4QH3HSEeupg61aHgZVug _Sm4QIHHSEeupg61aHgZVug _Sm4QIXHSEeupg61aHgZVug _Sm4QInHSEeupg61aHgZVug _Sm4QI3HSEeupg61aHgZVug _Sm4QJHHSEeupg61aHgZVug _Sm4QJXHSEeupg61aHgZVug _Sm4QJnHSEeupg61aHgZVug _Sm4QJ3HSEeupg61aHgZVug _Sm4QKHHSEeupg61aHgZVug _Sm4QKXHSEeupg61aHgZVug _Sm4QKnHSEeupg61aHgZVug _Sm4QK3HSEeupg61aHgZVug _Sm4QLHHSEeupg61aHgZVug _Sm4QLXHSEeupg61aHgZVug _Sm4QLnHSEeupg61aHgZVug _Sm4QL3HSEeupg61aHgZVug _Sm4QMHHSEeupg61aHgZVug _Sm4QMXHSEeupg61aHgZVug _Sm4QMnHSEeupg61aHgZVug _Sm4QM3HSEeupg61aHgZVug _Sm4QNHHSEeupg61aHgZVug _Sm4QNXHSEeupg61aHgZVug _Sm4QNnHSEeupg61aHgZVug _Sm4QN3HSEeupg61aHgZVug _Sm4QOHHSEeupg61aHgZVug _Sm4QOXHSEeupg61aHgZVug _Sm4QOnHSEeupg61aHgZVug _Sm4QO3HSEeupg61aHgZVug _Sm4QPHHSEeupg61aHgZVug _Sm4QPXHSEeupg61aHgZVug _Sm4QPnHSEeupg61aHgZVug _Sm4QP3HSEeupg61aHgZVug _Sm4QQHHSEeupg61aHgZVug _Sm4QQXHSEeupg61aHgZVug _Sm4QQnHSEeupg61aHgZVug _Sm4QQ3HSEeupg61aHgZVug _Sm4QRHHSEeupg61aHgZVug _Sm4QRXHSEeupg61aHgZVug _Sm4QRnHSEeupg61aHgZVug _Sm4QR3HSEeupg61aHgZVug _Sm4QSHHSEeupg61aHgZVug _Sm4QSXHSEeupg61aHgZVug _Sm4QSnHSEeupg61aHgZVug _Sm4QS3HSEeupg61aHgZVug _Sm4QTHHSEeupg61aHgZVug _Sm4QTXHSEeupg61aHgZVug _Sm4QTnHSEeupg61aHgZVug _Sm4QT3HSEeupg61aHgZVug _Sm4QUHHSEeupg61aHgZVug _Sm4QUXHSEeupg61aHgZVug _Sm4QUnHSEeupg61aHgZVug _Sm4QU3HSEeupg61aHgZVug _Sm4QVXHSEeupg61aHgZVug _Sm4QVnHSEeupg61aHgZVug _Sm4QV3HSEeupg61aHgZVug _Sm4QWHHSEeupg61aHgZVug _Sm4QWXHSEeupg61aHgZVug _Sm4QWnHSEeupg61aHgZVug _Sm4QW3HSEeupg61aHgZVug _Sm4QXHHSEeupg61aHgZVug _Sm4QXXHSEeupg61aHgZVug _Sm4QXnHSEeupg61aHgZVug _Sm4QX3HSEeupg61aHgZVug _Sm4QYHHSEeupg61aHgZVug _Sm4QYXHSEeupg61aHgZVug _Sm4QYnHSEeupg61aHgZVug _Sm4QY3HSEeupg61aHgZVug _Sm4QZHHSEeupg61aHgZVug _Sm4QZXHSEeupg61aHgZVug _Sm4QZnHSEeupg61aHgZVug _Sm4QZ3HSEeupg61aHgZVug _Sm4QaHHSEeupg61aHgZVug _Sm4QaXHSEeupg61aHgZVug _Sm4QanHSEeupg61aHgZVug _Sm4Qa3HSEeupg61aHgZVug _Sm4QbHHSEeupg61aHgZVug _Sm4QbXHSEeupg61aHgZVug _Sm4QbnHSEeupg61aHgZVug _Sm4Qb3HSEeupg61aHgZVug _Sm4QcHHSEeupg61aHgZVug _Sm4QcXHSEeupg61aHgZVug _Sm4QcnHSEeupg61aHgZVug _Sm4Qc3HSEeupg61aHgZVug _Sm4QdHHSEeupg61aHgZVug _Sm4QdXHSEeupg61aHgZVug _Sm4QdnHSEeupg61aHgZVug _Sm4Qd3HSEeupg61aHgZVug _Sm4QeHHSEeupg61aHgZVug _Sm4QeXHSEeupg61aHgZVug _Sm4QenHSEeupg61aHgZVug _Sm4Qe3HSEeupg61aHgZVug _Sm4QfHHSEeupg61aHgZVug _Sm4QfXHSEeupg61aHgZVug _Sm4QfnHSEeupg61aHgZVug _Sm4Qf3HSEeupg61aHgZVug _Sm4QgHHSEeupg61aHgZVug _Sm4QgXHSEeupg61aHgZVug _Sm4QgnHSEeupg61aHgZVug _Sm4Qg3HSEeupg61aHgZVug _Sm4QhHHSEeupg61aHgZVug _Sm4QhXHSEeupg61aHgZVug _GpZERHHKEeuicsuvlW1T1Q" ContextMode="true" ContextId="_APdiMGxTEeuIbKsc2obvcA" contextName="Default" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=rkalviqviadt.kau.roche.com)(port=15210))(connect_data=(service_name=IQIVIAPT.KAU.ROCHE.COM)))" dbVersionString="ORACLE_18" Port="context.connection_Oracle_Port" Username="context.connection_Oracle_Login" Password="context.connection_Oracle_Password" ServerName="context.connection_Oracle_Server" DatasourceName="" FileFieldName="" SID="context.connection_Oracle_ServiceName" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="context.connection_Oracle_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.connection_Oracle_Schema">
+    <taggedValue xmi:id="_cvJkAWxVEeuIbKsc2obvcA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_cwwGgGxVEeuIbKsc2obvcA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_cw20MGxVEeuIbKsc2obvcA" tag="Status" value=""/>
+    <taggedValue xmi:id="_cw20MWxVEeuIbKsc2obvcA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_cw20MmxVEeuIbKsc2obvcA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_cw20M2xVEeuIbKsc2obvcA" tag="Description" value=""/>
+    <taggedValue xmi:id="_cw20NGxVEeuIbKsc2obvcA" tag="Author" value=""/>
+    <taggedValue xmi:id="_cw20NWxVEeuIbKsc2obvcA" tag="otherParameter"/>
+    <taggedValue xmi:id="_dD_LkGxVEeuIbKsc2obvcA" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_dD_LkWxVEeuIbKsc2obvcA" tag="DB ProductVersion" value="Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production"/>
+    <taggedValue xmi:id="_dD_LkmxVEeuIbKsc2obvcA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_cvJkAmxVEeuIbKsc2obvcA" key="CONN_PARA_KEY_USERNAME" value="context.connection_Oracle_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QEHHSEeupg61aHgZVug" name="ANONYMOUS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QEXHSEeupg61aHgZVug" name="ANS_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QEnHSEeupg61aHgZVug" name="APPQOSSYS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QE3HSEeupg61aHgZVug" name="AUDSYS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QFHHSEeupg61aHgZVug" name="AU_REP_OCE_SALES_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QFXHSEeupg61aHgZVug" name="AU_REP_OCE_SALES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QFnHSEeupg61aHgZVug" name="AU_SALES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QF3HSEeupg61aHgZVug" name="CNES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QGHHSEeupg61aHgZVug" name="COR_DID_OM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QGXHSEeupg61aHgZVug" name="DBSFWUSER" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QGnHSEeupg61aHgZVug" name="DBSNMP" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QG3HSEeupg61aHgZVug" name="DIP" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QHHHSEeupg61aHgZVug" name="GGSYS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QHXHSEeupg61aHgZVug" name="GIGAYA_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QHnHSEeupg61aHgZVug" name="GSMADMIN_INTERNAL" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QH3HSEeupg61aHgZVug" name="GSMCATUSER" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QIHHSEeupg61aHgZVug" name="GSMUSER" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QIXHSEeupg61aHgZVug" name="HOSP_MAPP_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QInHSEeupg61aHgZVug" name="LND_DID_OM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QI3HSEeupg61aHgZVug" name="MDM_CORE_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QJHHSEeupg61aHgZVug" name="MDM_CRM4U_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QJXHSEeupg61aHgZVug" name="MDM_CRM4U_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QJnHSEeupg61aHgZVug" name="MDM_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QJ3HSEeupg61aHgZVug" name="MDTR_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QKHHSEeupg61aHgZVug" name="MIG_RELTIO_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QKXHSEeupg61aHgZVug" name="OCE_MARKETING_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QKnHSEeupg61aHgZVug" name="OCE_MARKETING_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QK3HSEeupg61aHgZVug" name="OCE_MARKETING_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QLHHSEeupg61aHgZVug" name="OCE_MARKETING_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QLXHSEeupg61aHgZVug" name="OCE_SALES_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QLnHSEeupg61aHgZVug" name="OCE_SALES_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QL3HSEeupg61aHgZVug" name="OCE_SALES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QMHHSEeupg61aHgZVug" name="OCE_SALES_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QMXHSEeupg61aHgZVug" name="OCE_SALES_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QMnHSEeupg61aHgZVug" name="OCE_SUPPORT" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QM3HSEeupg61aHgZVug" name="OM_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QNHHSEeupg61aHgZVug" name="OM_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QNXHSEeupg61aHgZVug" name="OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QNnHSEeupg61aHgZVug" name="OM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QN3HSEeupg61aHgZVug" name="ORACLE_OCM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QOHHSEeupg61aHgZVug" name="OUTLN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QOXHSEeupg61aHgZVug" name="PDIL_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QOnHSEeupg61aHgZVug" name="PHARMAEYE_CORE_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QO3HSEeupg61aHgZVug" name="PHARMAEYE_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QPHHSEeupg61aHgZVug" name="QA_ANS_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QPXHSEeupg61aHgZVug" name="QA_AU_SALES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QPnHSEeupg61aHgZVug" name="QA_CNES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QP3HSEeupg61aHgZVug" name="QA_COR_DID_OM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QQHHSEeupg61aHgZVug" name="QA_GIGAYA_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QQXHSEeupg61aHgZVug" name="QA_HOSP_MAPP_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QQnHSEeupg61aHgZVug" name="QA_LND_DID_OM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QQ3HSEeupg61aHgZVug" name="QA_MDM_CORE_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QRHHSEeupg61aHgZVug" name="QA_MDM_CRM4U_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QRXHSEeupg61aHgZVug" name="QA_MDM_CRM4U_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QRnHSEeupg61aHgZVug" name="QA_MDM_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QR3HSEeupg61aHgZVug" name="QA_MDTR_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QSHHSEeupg61aHgZVug" name="QA_MIG_RELTIO_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QSXHSEeupg61aHgZVug" name="QA_OCE_MARKETING_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QSnHSEeupg61aHgZVug" name="QA_OCE_MARKETING_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QS3HSEeupg61aHgZVug" name="QA_OCE_MARKETING_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QTHHSEeupg61aHgZVug" name="QA_OCE_MARKETING_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QTXHSEeupg61aHgZVug" name="QA_OCE_SALES_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QTnHSEeupg61aHgZVug" name="QA_OCE_SALES_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QT3HSEeupg61aHgZVug" name="QA_OCE_SALES_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QUHHSEeupg61aHgZVug" name="QA_OCE_SALES_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QUXHSEeupg61aHgZVug" name="QA_OCE_SALES_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QUnHSEeupg61aHgZVug" name="QA_OM_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QU3HSEeupg61aHgZVug" name="QA_OM_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QVXHSEeupg61aHgZVug" name="QA_OM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QVnHSEeupg61aHgZVug" name="QA_PDIL_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QV3HSEeupg61aHgZVug" name="QA_PHARMAEYE_CORE_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QWHHSEeupg61aHgZVug" name="QA_PHARMAEYE_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QWXHSEeupg61aHgZVug" name="QA_READ_AU_REPORTING" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QWnHSEeupg61aHgZVug" name="QA_READ_AWS_DL" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QW3HSEeupg61aHgZVug" name="QA_READ_TW_REPORTING" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QXHHSEeupg61aHgZVug" name="QA_RELTIO_MDM_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QXXHSEeupg61aHgZVug" name="QA_RELTIO_MDM_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QXnHSEeupg61aHgZVug" name="QA_RELTIO_MDM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QX3HSEeupg61aHgZVug" name="QA_RELTIO_MDM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QYHHSEeupg61aHgZVug" name="QA_RTS_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QYXHSEeupg61aHgZVug" name="QA_SAP_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QYnHSEeupg61aHgZVug" name="QA_VEEVA_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QY3HSEeupg61aHgZVug" name="QA_WORKDAY_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QZHHSEeupg61aHgZVug" name="QA_WORKDAY_OM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QZXHSEeupg61aHgZVug" name="RDBI" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QZnHSEeupg61aHgZVug" name="RDBMON" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QZ3HSEeupg61aHgZVug" name="READ_APAC_TW_LE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QaHHSEeupg61aHgZVug" name="READ_AU" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QaXHSEeupg61aHgZVug" name="READ_AU_REPORTING" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QanHSEeupg61aHgZVug" name="READ_AWS_DL" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qa3HSEeupg61aHgZVug" name="READ_C4" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QbHHSEeupg61aHgZVug" name="READ_EPICX_ANALYSIS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QbXHSEeupg61aHgZVug" name="READ_EPICX_SFDC_PUBDB" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QbnHSEeupg61aHgZVug" name="READ_SEMANTIC_POC" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qb3HSEeupg61aHgZVug" name="READ_TW_REPORTING" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QcHHSEeupg61aHgZVug" name="READ_UCI_GENERATOR" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QcXHSEeupg61aHgZVug" name="RELTIO_MDM_CORE" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QcnHSEeupg61aHgZVug" name="RELTIO_MDM_CORE_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qc3HSEeupg61aHgZVug" name="RELTIO_MDM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QdHHSEeupg61aHgZVug" name="RELTIO_MDM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QdXHSEeupg61aHgZVug" name="REMOTE_SCHEDULER_AGENT" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QdnHSEeupg61aHgZVug" name="RTS_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qd3HSEeupg61aHgZVug" name="RVUSER" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QeHHSEeupg61aHgZVug" name="SAP_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QeXHSEeupg61aHgZVug" name="SYS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QenHSEeupg61aHgZVug" name="SYS$UMF" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qe3HSEeupg61aHgZVug" name="SYSBACKUP" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QfHHSEeupg61aHgZVug" name="SYSDG" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QfXHSEeupg61aHgZVug" name="SYSKM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QfnHSEeupg61aHgZVug" name="SYSRAC" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qf3HSEeupg61aHgZVug" name="SYSTEM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QgHHSEeupg61aHgZVug" name="VEEVA_LAND_CN" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QgXHSEeupg61aHgZVug" name="WMSYS" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QgnHSEeupg61aHgZVug" name="WORKDAY_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4Qg3HSEeupg61aHgZVug" name="WORKDAY_OM_LAND_LATAM" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QhHHSEeupg61aHgZVug" name="XDB" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Sm4QhXHSEeupg61aHgZVug" name="XS$NULL" dataManager="_cvJkAGxVEeuIbKsc2obvcA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_GpZERHHKEeuicsuvlW1T1Q" name="QA_OM_LAND" dataManager="_cvJkAGxVEeuIbKsc2obvcA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_GsATIHHKEeuicsuvlW1T1Q" name="MV_USER_ACCOUNT_AUTHENTICATION" id="_Es1QsHHKEeuicsuvlW1T1Q" label="MV_USER_ACCOUNT_AUTHENTICATION" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATIXHKEeuicsuvlW1T1Q" name="USER_ACCOUNT_AUTHENTICATION_ID" label="USER_ACCOUNT_AUTHENTICATION_ID" length="16" sourceType="NUMBER" talendType="id_BigDecimal" key="true" nullable="false">
+        <taggedValue xmi:id="_GsATInHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATI3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATJHHKEeuicsuvlW1T1Q" name="NUMBER" numericPrecisionRadix="10" javaDataType="2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATJXHKEeuicsuvlW1T1Q" name="USER_ACCOUNT_ID" label="USER_ACCOUNT_ID" length="16" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false">
+        <taggedValue xmi:id="_GsATJnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATJ3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATKHHKEeuicsuvlW1T1Q" name="NUMBER" numericPrecisionRadix="10" javaDataType="2"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATKXHKEeuicsuvlW1T1Q" name="AUTHENTICATION_SCHEME" label="AUTHENTICATION_SCHEME" length="4" sourceType="VARCHAR2" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_GsATKnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATK3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATLHHKEeuicsuvlW1T1Q" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATLXHKEeuicsuvlW1T1Q" name="AUTHENTICATION_ID" label="AUTHENTICATION_ID" length="200" sourceType="VARCHAR2" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_GsATLnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATL3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATMHHKEeuicsuvlW1T1Q" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATMXHKEeuicsuvlW1T1Q" name="FLAGS" label="FLAGS" length="9" sourceType="NUMBER" talendType="id_BigDecimal">
+        <taggedValue xmi:id="_GsATMnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATM3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATNHHKEeuicsuvlW1T1Q" name="NUMBER" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATNXHKEeuicsuvlW1T1Q" name="PASSWORD" label="PASSWORD" length="-1" sourceType="BLOB" talendType="id_Object">
+        <taggedValue xmi:id="_GsATNnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATN3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATOHHKEeuicsuvlW1T1Q" name="BLOB" numericPrecisionRadix="10" javaDataType="2004" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_GsATOXHKEeuicsuvlW1T1Q" name="TENANT_ID" label="TENANT_ID" length="16" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false">
+        <taggedValue xmi:id="_GsATOnHKEeuicsuvlW1T1Q" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_GsATO3HKEeuicsuvlW1T1Q" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_GsATPHHKEeuicsuvlW1T1Q" name="NUMBER" numericPrecisionRadix="10" javaDataType="2"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

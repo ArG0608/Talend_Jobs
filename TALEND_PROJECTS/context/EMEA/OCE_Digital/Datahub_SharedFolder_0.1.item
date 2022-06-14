@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tIEDcOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tIEDceuzEeyrrccT1fvlcQ" comment="Target for masked data files for internal usage" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDcuuzEeyrrccT1fvlcQ" comment="Location for files from IQIVIA.Talend job picks files from here" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDc-uzEeyrrccT1fvlcQ" comment="SFTP Archive path " name="SFTP_Archive" prompt="SFTP_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/Archive/&quot;"/>
+    <contextParameter xmi:id="_tIEDdOuzEeyrrccT1fvlcQ" comment="Module Name" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OCE_Digital"/>
+    <contextParameter xmi:id="_tIEDdeuzEeyrrccT1fvlcQ" comment="Process Name" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="INCR"/>
+    <contextParameter xmi:id="_tIEDduuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CSV Files"/>
+    <contextParameter xmi:id="_tIEDd-uzEeyrrccT1fvlcQ" comment="SFTP Source Location" name="SFTP_SRC_DIR" prompt="SFTP_SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/Test/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIEDeOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tIEDeeuzEeyrrccT1fvlcQ" comment="Target for masked data files for internal usage" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/IQVIA_SFTP_DIR/EMEA/OCE_Digital/&quot;"/>
+    <contextParameter xmi:id="_tIEDeuuzEeyrrccT1fvlcQ" comment="Location for files from IQIVIA.Talend job picks files from here" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDe-uzEeyrrccT1fvlcQ" comment="SFTP Archive path " name="SFTP_Archive" prompt="SFTP_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/Archive/&quot;"/>
+    <contextParameter xmi:id="_tIEDfOuzEeyrrccT1fvlcQ" comment="Module Name" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OCE_Digital"/>
+    <contextParameter xmi:id="_tIEDfeuzEeyrrccT1fvlcQ" comment="Process Name" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="INCR"/>
+    <contextParameter xmi:id="_tIEDfuuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CSV Files"/>
+    <contextParameter xmi:id="_tIEDf-uzEeyrrccT1fvlcQ" comment="SFTP Source Location" name="SFTP_SRC_DIR" prompt="SFTP_SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIEDgOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tIEDgeuzEeyrrccT1fvlcQ" comment="Target for masked data files for internal usage" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/IQVIA_SFTP_DIR/EMEA/OCE_Digital/&quot;"/>
+    <contextParameter xmi:id="_tIEDguuzEeyrrccT1fvlcQ" comment="Location for files from IQIVIA.Talend job picks files from here" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDg-uzEeyrrccT1fvlcQ" comment="SFTP Archive path " name="SFTP_Archive" prompt="SFTP_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/Archive/&quot;"/>
+    <contextParameter xmi:id="_tIEDhOuzEeyrrccT1fvlcQ" comment="Module Name" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OCE_Digital"/>
+    <contextParameter xmi:id="_tIEDheuzEeyrrccT1fvlcQ" comment="Process Name" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="INCR"/>
+    <contextParameter xmi:id="_tIEDhuuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CSV Files"/>
+    <contextParameter xmi:id="_tIEDh-uzEeyrrccT1fvlcQ" comment="SFTP Source Location" name="SFTP_SRC_DIR" prompt="SFTP_SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Consent/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIEDiOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tIEDieuzEeyrrccT1fvlcQ" comment="Target for masked data files for internal usage" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDiuuzEeyrrccT1fvlcQ" comment="Location for files from IQIVIA.Talend job picks files from here" name="SFTP_DIR" prompt="SFTP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/SFTP_DIR/OCE_Digital/Consent/&quot;"/>
+    <contextParameter xmi:id="_tIEDi-uzEeyrrccT1fvlcQ" comment="SFTP Archive path " name="SFTP_Archive" prompt="SFTP_Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Outbound/EMEA/Temp/Archive/&quot;"/>
+    <contextParameter xmi:id="_tIEDjOuzEeyrrccT1fvlcQ" comment="Module Name" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OCE_Digital"/>
+    <contextParameter xmi:id="_tIEDjeuzEeyrrccT1fvlcQ" comment="Process Name" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="IDL"/>
+    <contextParameter xmi:id="_tIEDjuuzEeyrrccT1fvlcQ" comment="" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CSV Files"/>
+    <contextParameter xmi:id="_tIEDj-uzEeyrrccT1fvlcQ" comment="SFTP Source Location" name="SFTP_SRC_DIR" prompt="SFTP_SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/Outbound/EMEA/Temp/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJHzYOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_tJHzYeuzEeyrrccT1fvlcQ" comment="" name="parameter_batch_Id" prompt="parameter_batch_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzYuuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Id" prompt="parameter_process_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzY-uzEeyrrccT1fvlcQ" comment="" name="parameter_event_Type" prompt="parameter_event_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzZOuzEeyrrccT1fvlcQ" comment="" name="parameter_dataset_Id" prompt="parameter_dataset_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzZeuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Step" prompt="parameter_process_Step?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzZuuzEeyrrccT1fvlcQ" comment="" name="parameter_talend_token" prompt="parameter_talend_token?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:nDyleY4P1HKoXyuDwgKdw+XaWDQ9RBqs38HmPTbgE2Vs4udEOt/SZVuwoJj7ukriQgT63yE2+kgBPxev+4nDQVrV8R8uAO3A/Ev8W1XbEiIn61dqtDS5VTWO9RY="/>
+    <contextParameter xmi:id="_tJHzZ-uzEeyrrccT1fvlcQ" comment="" name="masterJobName" prompt="masterJobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJHzaOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJHzaeuzEeyrrccT1fvlcQ" comment="" name="parameter_batch_Id" prompt="parameter_batch_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzauuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Id" prompt="parameter_process_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHza-uzEeyrrccT1fvlcQ" comment="" name="parameter_event_Type" prompt="parameter_event_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzbOuzEeyrrccT1fvlcQ" comment="" name="parameter_dataset_Id" prompt="parameter_dataset_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzbeuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Step" prompt="parameter_process_Step?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzbuuzEeyrrccT1fvlcQ" comment="" name="parameter_talend_token" prompt="parameter_talend_token?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:A2IAf3plwP6MjwK2SZlxRzHQCeUrmNWO+SrchuK6PiWNPQoVDCVRsVy5bY2is+E7lWP9S95K40xgvlNziPvhiNKkI45yiNFhumpGAMejJVTrXpUS66djykTswuM="/>
+    <contextParameter xmi:id="_tJHzb-uzEeyrrccT1fvlcQ" comment="" name="masterJobName" prompt="masterJobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJHzcOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_tJHzceuzEeyrrccT1fvlcQ" comment="" name="parameter_batch_Id" prompt="parameter_batch_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzcuuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Id" prompt="parameter_process_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzc-uzEeyrrccT1fvlcQ" comment="" name="parameter_event_Type" prompt="parameter_event_Type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzdOuzEeyrrccT1fvlcQ" comment="" name="parameter_dataset_Id" prompt="parameter_dataset_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzdeuzEeyrrccT1fvlcQ" comment="" name="parameter_process_Step" prompt="parameter_process_Step?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tJHzduuzEeyrrccT1fvlcQ" comment="" name="parameter_talend_token" prompt="parameter_talend_token?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:m7UZOG1l7/lqkDLIy+Asx+gRzLeXkUT4u7/PQfRaQyVesjM0KlW6yifUVxe9SEAeWN9eKClbiA1279W7JskCgoNmAwHqriuBgltYFkRiQMZbDl9TmohhLRn+dMg="/>
+    <contextParameter xmi:id="_tJHzd-uzEeyrrccT1fvlcQ" comment="" name="masterJobName" prompt="masterJobName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

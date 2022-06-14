@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJsbIOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tJsbIeuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_TRSFTP_Host" prompt="connection_TRSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="52.213.205.10"/>
+    <contextParameter xmi:id="_tJsbIuuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_TRSFTP_User" prompt="connection_TRSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rocheeuuatmdm-clientsftp"/>
+    <contextParameter xmi:id="_tJsbI-uzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_TRSFTP_Password" prompt="connection_TRSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:3RrqllkByHExmhUNJpslxv4NwsywcCuC5mIVM/uQ56/pZ/jbYezoyd/DEHpwFnSZtIQAUL/R33RY8Ucs"/>
+    <contextParameter xmi:id="_tJsbJOuzEeyrrccT1fvlcQ" comment="Port for login to remote unix folder" name="connection_TRSFTP_Port" prompt="connection_TRSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJsbJeuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tJsbJuuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_TRSFTP_Host" prompt="connection_TRSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rkalvdidev01.kau.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJsbJ-uzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_TRSFTP_User" prompt="connection_TRSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;epicxtch&quot;"/>
+    <contextParameter xmi:id="_tJsbKOuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_TRSFTP_Password" prompt="connection_TRSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NAJw6wu3QkFtL0QdIJK9MjPzDulEWgRy55Jae8GHWCqeK6MofIb4Fl2wKg=="/>
+    <contextParameter xmi:id="_tJsbKeuzEeyrrccT1fvlcQ" comment="Port for login to remote unix folder" name="connection_TRSFTP_Port" prompt="connection_TRSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJsbKuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tJsbK-uzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_TRSFTP_Host" prompt="connection_TRSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rbausidwpr08.bas.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJsbLOuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_TRSFTP_User" prompt="connection_TRSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;uidw7008&quot;"/>
+    <contextParameter xmi:id="_tJsbLeuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_TRSFTP_Password" prompt="connection_TRSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:L/urDiNDLM9zbk0Fmef7qInla7gZQt6XnhHK8IM4sL9tpB5gAp26Nrq1LdA="/>
+    <contextParameter xmi:id="_tJsbLuuzEeyrrccT1fvlcQ" comment="Port for login to remote unix folder" name="connection_TRSFTP_Port" prompt="connection_TRSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJsbL-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJsbMOuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_TRSFTP_Host" prompt="connection_TRSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rbaub000168.bas.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJsbMeuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_TRSFTP_User" prompt="connection_TRSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;uidw7008&quot;"/>
+    <contextParameter xmi:id="_tJsbMuuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_TRSFTP_Password" prompt="connection_TRSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QmnhOdsE11r3X+tj4S/15RbtK9qJ4yCRz+UntUJ7Wl/bwtdL/BoPHoUyb8s="/>
+    <contextParameter xmi:id="_tJsbM-uzEeyrrccT1fvlcQ" comment="Port for login to remote unix folder" name="connection_TRSFTP_Port" prompt="connection_TRSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+</xmi:XMI>

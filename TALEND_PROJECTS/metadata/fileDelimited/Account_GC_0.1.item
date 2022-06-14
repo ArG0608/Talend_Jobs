@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_w0SaQHzpEey5DPTIz0JCLA" name="Account_GC" dataPackage="_w0SaQXzpEey5DPTIz0JCLA" Server="Localhost 127.0.0.1" FilePath="C:/Users/aghosh/Downloads/Account_Communication_Info_g__c_2022012321384866867_RE.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_w0SaQXzpEey5DPTIz0JCLA" name="default" dataManager="_w0SaQHzpEey5DPTIz0JCLA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_w0SaQnzpEey5DPTIz0JCLA" id="_Z2PKIHzpEey5DPTIz0JCLA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaQ3zpEey5DPTIz0JCLA" label="ACCOUNT_REF_G__C" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaRHzpEey5DPTIz0JCLA" label="COMMUNICATION_TYPE_G__C" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaRXzpEey5DPTIz0JCLA" label="DH_NUMBER" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaRnzpEey5DPTIz0JCLA" label="PHONE_G__C" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaR3zpEey5DPTIz0JCLA" label="EMAIL_G__C" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaSHzpEey5DPTIz0JCLA" label="EXTENSION_G__C" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaSXzpEey5DPTIz0JCLA" label="STATUS_G__C" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaSnzpEey5DPTIz0JCLA" label="AREA_CODE_G__C" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaS3zpEey5DPTIz0JCLA" label="COUNTRY_CODE_G__C" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaTHzpEey5DPTIz0JCLA" label="PRIMARY_G__C" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaTXzpEey5DPTIz0JCLA" label="RELTIO_EXTERNAL_ID_G__C" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaTnzpEey5DPTIz0JCLA" label="DH_COUNTRY" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaT3zpEey5DPTIz0JCLA" label="TECH_SK" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaUHzpEey5DPTIz0JCLA" label="TECH_MD5_CHECKSUM" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaUXzpEey5DPTIz0JCLA" label="TECH_INSERT_DATE" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w0SaUnzpEey5DPTIz0JCLA" label="TECH_LOAD_JOB_NAME" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

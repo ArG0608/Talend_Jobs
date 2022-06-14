@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJOhEOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tJOhEeuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2021-01-01 00:00:00.000&quot;"/>
+    <contextParameter xmi:id="_tJOhEuuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/CRM/RE/SRC_DIR/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJOhE-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tJOhFOuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2021-01-01 00:00:00.000&quot;"/>
+    <contextParameter xmi:id="_tJOhFeuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/CRM/EEMEA/SRC_DIR/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJOhFuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tJOhF-uzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;1901-01-01 00:00:00.000&quot;"/>
+    <contextParameter xmi:id="_tJOhGOuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/CRM/EEMEA/SRC_DIR/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJOhGeuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJOhGuuzEeyrrccT1fvlcQ" comment="" name="LAST_UPDATE_DATE" prompt="LAST_UPDATE_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;1901-01-01 00:00:00.000&quot;"/>
+    <contextParameter xmi:id="_tJOhG-uzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR" prompt="CONTEXT_FILE_DIR?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/CRM/RE/SRC_DIR/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

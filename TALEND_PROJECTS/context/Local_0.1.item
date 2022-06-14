@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tI_QgOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tI_QgeuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR_Bill" prompt="OUT_DIR_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/"/>
+    <contextParameter xmi:id="_tI_QguuzEeyrrccT1fvlcQ" comment="" name="SRC_DIR_Bill" prompt="SRC_DIR_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/"/>
+    <contextParameter xmi:id="_tI_Qg-uzEeyrrccT1fvlcQ" comment="" name="SFTP_SRC_DIR_Bill" prompt="SFTP_SRC_DIR_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/"/>
+    <contextParameter xmi:id="_tI_QhOuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_SRC_DIR_Bill" prompt="IDW_SFTP_SRC_DIR_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/"/>
+    <contextParameter xmi:id="_tI_QheuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR_Bill" prompt="SFTP_DIR_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/"/>
+    <contextParameter xmi:id="_tI_QhuuzEeyrrccT1fvlcQ" comment="" name="s3_bucket_Bill" prompt="s3_bucket_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/err/"/>
+    <contextParameter xmi:id="_tI_Qh-uzEeyrrccT1fvlcQ" comment="" name="SFTP_Archive_Bill" prompt="SFTP_Archive_Bill?" promptNeeded="false" type="id_String" value="C:/Users/aghosh/Downloads/Talend_Test_Folders/SFTP_ARCHIVE/"/>
+    <contextParameter xmi:id="_tI_QiOuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR_Bill" prompt="CONTEXT_FILE_DIR_Bill?" promptNeeded="false" type="id_String" value="&quot;C:/Users/sgurav/Documents/MDM_File_Extract/Contexts/OM/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tI_QieuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tI_QiuuzEeyrrccT1fvlcQ" comment="" name="OUT_DIR_Bill" prompt="OUT_DIR_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_Qi-uzEeyrrccT1fvlcQ" comment="" name="SRC_DIR_Bill" prompt="SRC_DIR_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_QjOuzEeyrrccT1fvlcQ" comment="" name="SFTP_SRC_DIR_Bill" prompt="SFTP_SRC_DIR_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_QjeuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_SRC_DIR_Bill" prompt="IDW_SFTP_SRC_DIR_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_QjuuzEeyrrccT1fvlcQ" comment="" name="SFTP_DIR_Bill" prompt="SFTP_DIR_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_Qj-uzEeyrrccT1fvlcQ" comment="" name="s3_bucket_Bill" prompt="s3_bucket_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_QkOuzEeyrrccT1fvlcQ" comment="" name="SFTP_Archive_Bill" prompt="SFTP_Archive_Bill?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_tI_QkeuzEeyrrccT1fvlcQ" comment="" name="CONTEXT_FILE_DIR_Bill" prompt="CONTEXT_FILE_DIR_Bill?" promptNeeded="false" type="id_String" value="&quot;C:/Users/sgurav/Documents/MDM_File_Extract/Contexts/OM/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

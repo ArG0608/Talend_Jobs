@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJdxoOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tJdxoeuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_SFTP_IQVIAHost" prompt="connection_SFTP_IQVIAHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="34.252.183.83"/>
+    <contextParameter xmi:id="_tJdxouuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_SFTP_IQVIAUser" prompt="connection_SFTP_IQVIAUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rocheeudev2mdm-clientsftp"/>
+    <contextParameter xmi:id="_tJdxo-uzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_SFTP_IQVIAPassword" prompt="connection_SFTP_IQVIAPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:n4pB0Tq4P8uzniyxtu9yX7UDAR4tARI689T3xymf3/cfzEt/r+BZJ/Xf/g2sOQOcla88RY70pdVxC+kb"/>
+    <contextParameter xmi:id="_tJdxpOuzEeyrrccT1fvlcQ" comment="" name="connection_SFTP_IQVIAPort" prompt="connection_SFTP_IQVIAPort?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJdxpeuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tJdxpuuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_SFTP_IQVIAHost" prompt="connection_SFTP_IQVIAHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="34.252.183.83"/>
+    <contextParameter xmi:id="_tJdxp-uzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_SFTP_IQVIAUser" prompt="connection_SFTP_IQVIAUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rochenadev5mdm-clientsftp"/>
+    <contextParameter xmi:id="_tJdxqOuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_SFTP_IQVIAPassword" prompt="connection_SFTP_IQVIAPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:D4GcNCFuEnBujP2H1f7HyLsB+8j1sTkHGbTaGWc05fJ6lqRyKFdNzFSYw8SkIb9OisxihReuKMtvIAsH"/>
+    <contextParameter xmi:id="_tJdxqeuzEeyrrccT1fvlcQ" comment="" name="connection_SFTP_IQVIAPort" prompt="connection_SFTP_IQVIAPort?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJdxquuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tJdxq-uzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_SFTP_IQVIAHost" prompt="connection_SFTP_IQVIAHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rbausidwpr08.bas.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJdxrOuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_SFTP_IQVIAUser" prompt="connection_SFTP_IQVIAUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;uidw7008&quot;"/>
+    <contextParameter xmi:id="_tJdxreuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_SFTP_IQVIAPassword" prompt="connection_SFTP_IQVIAPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:yGQOrc9T/semcld0/S/KOMHkLLY0EW1I53U4XQwshFfpOjgXLb9WtOLetsA="/>
+    <contextParameter xmi:id="_tJdxruuzEeyrrccT1fvlcQ" comment="" name="connection_SFTP_IQVIAPort" prompt="connection_SFTP_IQVIAPort?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJdxr-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJdxsOuzEeyrrccT1fvlcQ" comment="Host string for Informatica unix folders" name="connection_SFTP_IQVIAHost" prompt="connection_SFTP_IQVIAHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="34.194.170.215"/>
+    <contextParameter xmi:id="_tJdxseuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_SFTP_IQVIAUser" prompt="connection_SFTP_IQVIAUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rochenadev5mdm-clientsftp"/>
+    <contextParameter xmi:id="_tJdxsuuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_SFTP_IQVIAPassword" prompt="connection_SFTP_IQVIAPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WNaxCklqdlmFFWK9zb+Aw0KONHFOdST5B3iADTZObOJJXsf9pEHTaEs8MpUPdZZQeYsVnqsm20tRPSU4"/>
+    <contextParameter xmi:id="_tJdxs-uzEeyrrccT1fvlcQ" comment="" name="connection_SFTP_IQVIAPort" prompt="connection_SFTP_IQVIAPort?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+</xmi:XMI>

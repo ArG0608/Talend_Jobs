@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tHkUMOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tHkUMeuzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIAR3PNV5XX32QVC3C7&quot;"/>
+    <contextParameter xmi:id="_tHkUMuuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:9Khf/p+AsGKlVr/m9FBXfZfzZkWXIt5tJTaNsGzjuNxTGWAfTDyo/OoY2xdl3GVKWT36n2UFEf/pdHKMV1w/fY0z77Y="/>
+    <contextParameter xmi:id="_tHkUM-uzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;arn:aws:kms:eu-central-1:127736868335:key/d2189409-18b5-4a6c-b305-8709fc751b24&quot;"/>
+    <contextParameter xmi:id="_tHkUNOuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHkUNeuzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;epicx-datahub-publish-1-dev&quot;"/>
+    <contextParameter xmi:id="_tHkUNuuzEeyrrccT1fvlcQ" comment="Env name" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter xmi:id="_tHkUN-uzEeyrrccT1fvlcQ" comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/Logs/&quot;"/>
+    <contextParameter xmi:id="_tHkUOOuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForJson" prompt="S3LogPathForJson?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;talend-logs/DEV/json/&quot;"/>
+    <contextParameter xmi:id="_tHkUOeuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForCsv" prompt="S3LogPathForCsv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;talend-logs/DEV/csv/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHkUOuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tHkUO-uzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIAR3PNV5XX32QVC3C7&quot;"/>
+    <contextParameter xmi:id="_tHkUPOuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:EpaghUNGeLahsQevpkCnAdggG0BX3e95EYU1XbI6M79QlfKinG+2VNDTAPdW9XOT48PTZAxNY7f3Af32ma/NGTwQEYg="/>
+    <contextParameter xmi:id="_tHkUPeuzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;arn:aws:kms:eu-central-1:127736868335:key/d2189409-18b5-4a6c-b305-8709fc751b24&quot;"/>
+    <contextParameter xmi:id="_tHkUPuuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHkUP-uzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;epicx-datahub-sandbox-1-dev&quot;"/>
+    <contextParameter xmi:id="_tHkUQOuzEeyrrccT1fvlcQ" comment="Env name" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter xmi:id="_tHkUQeuzEeyrrccT1fvlcQ" comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUQuuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForJson" prompt="S3LogPathForJson?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUQ-uzEeyrrccT1fvlcQ" comment="" name="S3LogPathForCsv" prompt="S3LogPathForCsv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHkUROuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tHkUReuzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIAR3PNV5XX32QVC3C7&quot;"/>
+    <contextParameter xmi:id="_tHkURuuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GDbjAIR2k7pLkzlsyC2nA+ekiM+eVHp4krwsFpqGvpQ+X4fbZ8Evkj6RtodOLTXOwfsVC6lK5MDyVajk9VMW2Pf590I="/>
+    <contextParameter xmi:id="_tHkUR-uzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;arn:aws:kms:eu-central-1:127736868335:key/d2189409-18b5-4a6c-b305-8709fc751b24&quot;"/>
+    <contextParameter xmi:id="_tHkUSOuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHkUSeuzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;epicx-datahub-sandbox-1-dev&quot;"/>
+    <contextParameter xmi:id="_tHkUSuuzEeyrrccT1fvlcQ" comment="Env name" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter xmi:id="_tHkUS-uzEeyrrccT1fvlcQ" comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUTOuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForJson" prompt="S3LogPathForJson?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUTeuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForCsv" prompt="S3LogPathForCsv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHkUTuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tHkUT-uzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIAR3PNV5XX32QVC3C7&quot;"/>
+    <contextParameter xmi:id="_tHkUUOuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:YvLaF6OdfuYJTg7TmnGRVPRlVZ8DsbLVWPYSejG5AgEc8aDIv7VoahCCeb0R1sygc2+jJwuSAXlbuYT2RcFeToIEuDc="/>
+    <contextParameter xmi:id="_tHkUUeuzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;arn:aws:kms:eu-central-1:127736868335:key/d2189409-18b5-4a6c-b305-8709fc751b24&quot;"/>
+    <contextParameter xmi:id="_tHkUUuuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHkUU-uzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;epicx-datahub-sandbox-1-dev&quot;"/>
+    <contextParameter xmi:id="_tHkUVOuzEeyrrccT1fvlcQ" comment="Env name" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+    <contextParameter xmi:id="_tHkUVeuzEeyrrccT1fvlcQ" comment="" name="LogPath" prompt="LogPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUVuuzEeyrrccT1fvlcQ" comment="" name="S3LogPathForJson" prompt="S3LogPathForJson?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tHkUV-uzEeyrrccT1fvlcQ" comment="" name="S3LogPathForCsv" prompt="S3LogPathForCsv?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

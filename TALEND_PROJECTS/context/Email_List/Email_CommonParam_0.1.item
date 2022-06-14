@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tIxOEOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tIxOEeuzEeyrrccT1fvlcQ" comment="To list" name="FAILURE_MAIL_TO" prompt="FAILURE_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="dashrath.dhakad@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOEuuzEeyrrccT1fvlcQ" comment="From list" name="MAIL_FROM" prompt="MAIL_FROM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_user@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOE-uzEeyrrccT1fvlcQ" comment="Text" name="MAIL_NOTIFICATION_SUBJECT" prompt="MAIL_NOTIFICATION_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Notification&quot;"/>
+    <contextParameter xmi:id="_tIxOFOuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_FAILURE_SUBJECT" prompt="MAIL_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job failed, please check&quot;"/>
+    <contextParameter xmi:id="_tIxOFeuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_SUCCESS_SUBJECT" prompt="MAIL_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job completed successfully&quot;"/>
+    <contextParameter xmi:id="_tIxOFuuzEeyrrccT1fvlcQ" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mailhost.roche.com"/>
+    <contextParameter xmi:id="_tIxOF-uzEeyrrccT1fvlcQ" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25"/>
+    <contextParameter xmi:id="_tIxOGOuzEeyrrccT1fvlcQ" comment="" name="ENVIRONMENT_NAME" prompt="ENVIRONMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV"/>
+    <contextParameter xmi:id="_tIxOGeuzEeyrrccT1fvlcQ" comment="" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;IDL&quot;"/>
+    <contextParameter xmi:id="_tIxOGuuzEeyrrccT1fvlcQ" comment="" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;Affiliation&quot;"/>
+    <contextParameter xmi:id="_tIxOG-uzEeyrrccT1fvlcQ" comment="" name="ASSIGNMENT_NAME" prompt="ASSIGNMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;OCE&quot;"/>
+    <contextParameter xmi:id="_tIxOHOuzEeyrrccT1fvlcQ" comment="" name="SCOPE_REGION" prompt="SCOPE_REGION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;EMEA&quot;"/>
+    <contextParameter xmi:id="_tIxOHeuzEeyrrccT1fvlcQ" comment="" name="SUCCESS_MAIL_TO" prompt="SUCCESS_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="dashrath.dhakad@contractors.roche.com"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIxOHuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tIxOH-uzEeyrrccT1fvlcQ" comment="To list" name="FAILURE_MAIL_TO" prompt="FAILURE_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOIOuzEeyrrccT1fvlcQ" comment="From list" name="MAIL_FROM" prompt="MAIL_FROM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_user@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOIeuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_NOTIFICATION_SUBJECT" prompt="MAIL_NOTIFICATION_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Notification&quot;"/>
+    <contextParameter xmi:id="_tIxOIuuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_FAILURE_SUBJECT" prompt="MAIL_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job failed, please check&quot;"/>
+    <contextParameter xmi:id="_tIxOI-uzEeyrrccT1fvlcQ" comment="Text" name="MAIL_SUCCESS_SUBJECT" prompt="MAIL_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job completed successfully&quot;"/>
+    <contextParameter xmi:id="_tIxOJOuzEeyrrccT1fvlcQ" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mailhost.roche.com"/>
+    <contextParameter xmi:id="_tIxOJeuzEeyrrccT1fvlcQ" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25"/>
+    <contextParameter xmi:id="_tIxOJuuzEeyrrccT1fvlcQ" comment="" name="ENVIRONMENT_NAME" prompt="ENVIRONMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV"/>
+    <contextParameter xmi:id="_tIxOJ-uzEeyrrccT1fvlcQ" comment="" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_tIxOKOuzEeyrrccT1fvlcQ" comment="" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;Payer&quot;"/>
+    <contextParameter xmi:id="_tIxOKeuzEeyrrccT1fvlcQ" comment="" name="ASSIGNMENT_NAME" prompt="ASSIGNMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;OCE&quot;"/>
+    <contextParameter xmi:id="_tIxOKuuzEeyrrccT1fvlcQ" comment="" name="SCOPE_REGION" prompt="SCOPE_REGION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;EMEA&quot;"/>
+    <contextParameter xmi:id="_tIxOK-uzEeyrrccT1fvlcQ" comment="" name="SUCCESS_MAIL_TO" prompt="SUCCESS_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="@contractors.roche.com"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIxOLOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tIxOLeuzEeyrrccT1fvlcQ" comment="To list" name="FAILURE_MAIL_TO" prompt="FAILURE_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="shantanu.kshatriya@contractors.roche.com,dashrath.dhakad@contractors.roche.com,sunitha.suresh@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOLuuzEeyrrccT1fvlcQ" comment="From list" name="MAIL_FROM" prompt="MAIL_FROM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_user@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOL-uzEeyrrccT1fvlcQ" comment="Text" name="MAIL_NOTIFICATION_SUBJECT" prompt="MAIL_NOTIFICATION_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Notification"/>
+    <contextParameter xmi:id="_tIxOMOuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_FAILURE_SUBJECT" prompt="MAIL_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Job failed, please check"/>
+    <contextParameter xmi:id="_tIxOMeuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_SUCCESS_SUBJECT" prompt="MAIL_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Job completed successfully"/>
+    <contextParameter xmi:id="_tIxOMuuzEeyrrccT1fvlcQ" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mailhost.roche.com"/>
+    <contextParameter xmi:id="_tIxOM-uzEeyrrccT1fvlcQ" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25"/>
+    <contextParameter xmi:id="_tIxONOuzEeyrrccT1fvlcQ" comment="" name="ENVIRONMENT_NAME" prompt="ENVIRONMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD"/>
+    <contextParameter xmi:id="_tIxONeuzEeyrrccT1fvlcQ" comment="" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_tIxONuuzEeyrrccT1fvlcQ" comment="" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_tIxON-uzEeyrrccT1fvlcQ" comment="" name="ASSIGNMENT_NAME" prompt="ASSIGNMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;OCE&quot;"/>
+    <contextParameter xmi:id="_tIxOOOuzEeyrrccT1fvlcQ" comment="" name="SCOPE_REGION" prompt="SCOPE_REGION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;EMEA&quot;"/>
+    <contextParameter xmi:id="_tIxOOeuzEeyrrccT1fvlcQ" comment="" name="SUCCESS_MAIL_TO" prompt="SUCCESS_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="@contractors.roche.com"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIxOOuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tIxOO-uzEeyrrccT1fvlcQ" comment="To list" name="FAILURE_MAIL_TO" prompt="FAILURE_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOPOuzEeyrrccT1fvlcQ" comment="From list" name="MAIL_FROM" prompt="MAIL_FROM?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_user@contractors.roche.com"/>
+    <contextParameter xmi:id="_tIxOPeuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_NOTIFICATION_SUBJECT" prompt="MAIL_NOTIFICATION_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Notification&quot;"/>
+    <contextParameter xmi:id="_tIxOPuuzEeyrrccT1fvlcQ" comment="Text" name="MAIL_FAILURE_SUBJECT" prompt="MAIL_FAILURE_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job failed, please check&quot;"/>
+    <contextParameter xmi:id="_tIxOP-uzEeyrrccT1fvlcQ" comment="Text" name="MAIL_SUCCESS_SUBJECT" prompt="MAIL_SUCCESS_SUBJECT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Job completed successfully&quot;"/>
+    <contextParameter xmi:id="_tIxOQOuzEeyrrccT1fvlcQ" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mailhost.roche.com"/>
+    <contextParameter xmi:id="_tIxOQeuzEeyrrccT1fvlcQ" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25"/>
+    <contextParameter xmi:id="_tIxOQuuzEeyrrccT1fvlcQ" comment="" name="ENVIRONMENT_NAME" prompt="ENVIRONMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV"/>
+    <contextParameter xmi:id="_tIxOQ-uzEeyrrccT1fvlcQ" comment="" name="PROCESS_NAME" prompt="PROCESS_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_tIxOROuzEeyrrccT1fvlcQ" comment="" name="MODULE_NAME" prompt="MODULE_NAME?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_tIxOReuzEeyrrccT1fvlcQ" comment="" name="ASSIGNMENT_NAME" prompt="ASSIGNMENT_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;OCE&quot;"/>
+    <contextParameter xmi:id="_tIxORuuzEeyrrccT1fvlcQ" comment="" name="SCOPE_REGION" prompt="SCOPE_REGION?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;EMEA&quot;"/>
+    <contextParameter xmi:id="_tIxOR-uzEeyrrccT1fvlcQ" comment="" name="SUCCESS_MAIL_TO" prompt="SUCCESS_MAIL_TO?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="@contractors.roche.com"/>
+  </talendfile:ContextType>
+</xmi:XMI>

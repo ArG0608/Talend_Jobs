@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tHJdcOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tHJdceuzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIASJU7L75P3DEL5PNT&quot;"/>
+    <contextParameter xmi:id="_tHJdcuuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:wczw5K4mOym8X920aLKC6BU3k1Tif+ECy3PrbbfYBblkcuItQl1klu4uow3kTB4Zhlkkv/FHGiCD19AQo1bsMBx1UP8="/>
+    <contextParameter xmi:id="_tHJdc-uzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;fc140cae-2357-41aa-b0e9-d06ff84cdf64&quot;"/>
+    <contextParameter xmi:id="_tHJddOuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHJddeuzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dhepicxorganizationmanagerdataonboarding935kna&quot;"/>
+    <contextParameter xmi:id="_tHJdduuzEeyrrccT1fvlcQ" comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHJdd-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tHJdeOuzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIASJU7L75P25LJZQED&quot;"/>
+    <contextParameter xmi:id="_tHJdeeuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:x4k8wZ0xlFkGPOOLgFVr2pt7YAWMzV7a4rN0xN+CATD64z+4sRBrNa5gRQdxXVyC7NHeIVc/4H9L0E07Mh6mFM6as0w="/>
+    <contextParameter xmi:id="_tHJdeuuzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;fc140cae-2357-41aa-b0e9-d06ff84cdf64&quot;"/>
+    <contextParameter xmi:id="_tHJde-uzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHJdfOuzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dhepicxorganizationmanagerdataonboarding935kna&quot;"/>
+    <contextParameter xmi:id="_tHJdfeuzEeyrrccT1fvlcQ" comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;DEV&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHJdfuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tHJdf-uzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIASJU7L75PU7I7DSBQ&quot;"/>
+    <contextParameter xmi:id="_tHJdgOuzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:B9wu+IYHu6l/0EJ1OQyvW1zpYnZ/D0kz0N56d/EdUgklspGNs9vsyRGfQxusLHMTE9xaHHgNlE7u9qhN93ELf0Mr+EY="/>
+    <contextParameter xmi:id="_tHJdgeuzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;8bc32bbf-6ad0-4d4b-95c0-7a87cafbe7e9&quot;"/>
+    <contextParameter xmi:id="_tHJdguuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHJdg-uzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dhepicxmasterandreferencedataonboardingknmblr&quot;"/>
+    <contextParameter xmi:id="_tHJdhOuzEeyrrccT1fvlcQ" comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tHJdheuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tHJdhuuzEeyrrccT1fvlcQ" comment="Access Key" name="AWS_Access_Key" prompt="AWS_Access_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;AKIASJU7L75PU7I7DSBQ&quot;"/>
+    <contextParameter xmi:id="_tHJdh-uzEeyrrccT1fvlcQ" comment="Secret Key" name="AWS_Secret_Key" prompt="AWS_Secret_Key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NXB3xt/u+/pEL9Gmqh+iI/G8O3CxrsNWoKUN3RZCZUcWGUhJ5zgWxq6kgJSMsM/ImkJ6HCwUaLOxcgmXf0wRrdPEU6A="/>
+    <contextParameter xmi:id="_tHJdiOuzEeyrrccT1fvlcQ" comment="Encryption key" name="KMS" prompt="KMS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;8bc32bbf-6ad0-4d4b-95c0-7a87cafbe7e9&quot;"/>
+    <contextParameter xmi:id="_tHJdieuzEeyrrccT1fvlcQ" comment="Region to run" name="Region" prompt="Region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="APAC"/>
+    <contextParameter xmi:id="_tHJdiuuzEeyrrccT1fvlcQ" comment="Bucket Name" name="Bucket" prompt="Bucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;dhepicxmasterandreferencedataonboardingknmblr&quot;"/>
+    <contextParameter xmi:id="_tHJdi-uzEeyrrccT1fvlcQ" comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

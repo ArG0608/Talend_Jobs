@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_gSoFgH07Eey5DPTIz0JCLA" name="LOCAL_DB" id="_WRR8YH07Eey5DPTIz0JCLA" label="LOCAL_DB" dataPackage="_gUOoAH07Eey5DPTIz0JCLA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/db_test?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="enc:system.encryption.key.v1:DwUtm61rp0y/zuIY77TIb88bA+jUgVCkiB943UYZUIWHODhH" ServerName="localhost" DatasourceName="" FileFieldName="" SID="db_test" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_gSoFgX07Eey5DPTIz0JCLA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_gTJp8H07Eey5DPTIz0JCLA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_gTNUUH07Eey5DPTIz0JCLA" tag="Status" value=""/>
+    <taggedValue xmi:id="_gTNUUX07Eey5DPTIz0JCLA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_gTNUUn07Eey5DPTIz0JCLA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_gTNUU307Eey5DPTIz0JCLA" tag="Description" value=""/>
+    <taggedValue xmi:id="_gTNUVH07Eey5DPTIz0JCLA" tag="Author" value=""/>
+    <taggedValue xmi:id="_gTNUVX07Eey5DPTIz0JCLA" tag="otherParameter"/>
+    <taggedValue xmi:id="_gTtDkH07Eey5DPTIz0JCLA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_gTtDkX07Eey5DPTIz0JCLA" tag="DB ProductVersion" value="8.0.26"/>
+    <taggedValue xmi:id="_gTtDkn07Eey5DPTIz0JCLA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_gSoFgn07Eey5DPTIz0JCLA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_gUOoAH07Eey5DPTIz0JCLA" name="db_test" dataManager="_gSoFgH07Eey5DPTIz0JCLA"/>
+</xmi:XMI>

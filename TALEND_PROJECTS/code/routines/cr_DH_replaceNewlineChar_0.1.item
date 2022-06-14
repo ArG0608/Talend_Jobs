@@ -1,0 +1,35 @@
+package routines;
+
+import routines.system.Dynamic;
+
+
+public class cr_DH_replaceNewlineChar {
+
+    /**
+     * replace_newline: return Dynamic type value, replaced newline characters with space .
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} Dynamic(input_row.ColumnName) input: The row/column need to be replaced.
+     * 
+     * {example} cr_DH_replaceNewlineChar.replace_newline(row1.newColumn) # output replaced newline character with space.
+     */
+    public static Dynamic replace_newline(Dynamic in_row) {
+       
+    	routines.system.Dynamic dynamic = in_row;
+
+    	for (int colIdx = 0; colIdx < dynamic.getColumnCount(); colIdx++) {
+    	Object dynamicValue = dynamic.getColumnValue(colIdx);
+    	if (dynamicValue instanceof String) {
+    	String stringValue = (String)dynamicValue ;
+    	stringValue = stringValue.replaceAll("\\r\\n|\\r|\\n", " ");
+    	dynamic.setColumnValue(colIdx, stringValue);
+    	}
+    	}
+
+    	return dynamic;
+    }
+}

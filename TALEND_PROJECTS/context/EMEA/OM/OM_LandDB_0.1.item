@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tIeTIOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tIeTIeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_ServiceName" prompt="connection_Oracle_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="IQIVIAPT.KAU.ROCHE.COM"/>
+    <contextParameter xmi:id="_tIeTIuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Schema" prompt="connection_Oracle_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIeTI-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Server" prompt="connection_Oracle_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rkalviqviadt.kau.roche.com"/>
+    <contextParameter xmi:id="_tIeTJOuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_AdditionalParams" prompt="connection_Oracle_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIeTJeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Password" prompt="connection_Oracle_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fdWDYTPIRxifi1v9hV1Xhq6i8PbeqXbn7fDETfWd4cvFZtwV"/>
+    <contextParameter xmi:id="_tIeTJuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Port" prompt="connection_Oracle_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="15210"/>
+    <contextParameter xmi:id="_tIeTJ-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Login" prompt="connection_Oracle_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QA_OM_CORE_EMEA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIe6MOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tIe6MeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_ServiceName" prompt="connection_Oracle_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="IQIVIAPT.KAU.ROCHE.COM"/>
+    <contextParameter xmi:id="_tIe6MuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Schema" prompt="connection_Oracle_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6M-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Server" prompt="connection_Oracle_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rkalviqviadt.kau.roche.com"/>
+    <contextParameter xmi:id="_tIe6NOuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_AdditionalParams" prompt="connection_Oracle_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6NeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Password" prompt="connection_Oracle_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:4R7UHk3ZGqhg1PId02kP5Z6Emr/CgZ8u9L3ex7AO1wKbyUiQ"/>
+    <contextParameter xmi:id="_tIe6NuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Port" prompt="connection_Oracle_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="15210"/>
+    <contextParameter xmi:id="_tIe6N-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Login" prompt="connection_Oracle_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QA_OM_CORE_EMEA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIe6OOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tIe6OeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_ServiceName" prompt="connection_Oracle_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="IQIVIAPD.KAU.ROCHE.COM"/>
+    <contextParameter xmi:id="_tIe6OuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Schema" prompt="connection_Oracle_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6O-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Server" prompt="connection_Oracle_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rkalviqviadt.kau.roche.com"/>
+    <contextParameter xmi:id="_tIe6POuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_AdditionalParams" prompt="connection_Oracle_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6PeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Password" prompt="connection_Oracle_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:bO9MMLiMBKXig1kw1Dqz/YapZ5XAd4I0GDDEqOpzfcl1vQ=="/>
+    <contextParameter xmi:id="_tIe6PuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Port" prompt="connection_Oracle_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="15220"/>
+    <contextParameter xmi:id="_tIe6P-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Login" prompt="connection_Oracle_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OM_LAND_LATAM"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIe6QOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tIe6QeuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_ServiceName" prompt="connection_Oracle_ServiceName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="IQIVIAPD.KAU.ROCHE.COM"/>
+    <contextParameter xmi:id="_tIe6QuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Schema" prompt="connection_Oracle_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6Q-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Server" prompt="connection_Oracle_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rkalviqviadt.kau.roche.com"/>
+    <contextParameter xmi:id="_tIe6ROuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_AdditionalParams" prompt="connection_Oracle_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIe6ReuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Password" prompt="connection_Oracle_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ZngDvcEwg0OBVzg+inIvxMpokxNhHWcNa2u9RyXNmBnzyQ=="/>
+    <contextParameter xmi:id="_tIe6RuuzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Port" prompt="connection_Oracle_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="15220"/>
+    <contextParameter xmi:id="_tIe6R-uzEeyrrccT1fvlcQ" comment="" name="connection_Oracle_Login" prompt="connection_Oracle_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OM_LAND_LATAM"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_AsXPcG-zEeyzaIv9bL9Eug" name="HCO_R3" dataPackage="_AsX2gG-zEeyzaIv9bL9Eug" Server="Localhost 127.0.0.1" FilePath="C:/Users/aghosh/Downloads/Talend_Test_Folders/Generic_Extract_EMEA_PROD_20220103102544/MDM_GenericExtract_HCO.dat" Encoding="UTF-8" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AsX2gG-zEeyzaIv9bL9Eug" name="default" dataManager="_AsXPcG-zEeyzaIv9bL9Eug">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AsX2gW-zEeyzaIv9bL9Eug" id="_u73CQG-yEeyzaIv9bL9Eug" label="hco_schma">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2gm-zEeyzaIv9bL9Eug" label="OPERATION" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2g2-zEeyzaIv9bL9Eug" label="Customer_ID" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2hG-zEeyzaIv9bL9Eug" label="Country" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2hW-zEeyzaIv9bL9Eug" label="TypeCode" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2hm-zEeyzaIv9bL9Eug" label="Name" length="71" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2h2-zEeyzaIv9bL9Eug" label="DoingBusinessAsName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2iG-zEeyzaIv9bL9Eug" label="OfficialName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2iW-zEeyzaIv9bL9Eug" label="SrepAccess" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2im-zEeyzaIv9bL9Eug" label="GroupPracticeID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2i2-zEeyzaIv9bL9Eug" label="AcceptMedicare" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2jG-zEeyzaIv9bL9Eug" label="AcceptMedicaid" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2jW-zEeyzaIv9bL9Eug" label="PercentMedicaid" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2jm-zEeyzaIv9bL9Eug" label="HealthSystemName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2j2-zEeyzaIv9bL9Eug" label="GPOMembership" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2kG-zEeyzaIv9bL9Eug" label="Academic" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2kW-zEeyzaIv9bL9Eug" label="BusinessEntityType" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2km-zEeyzaIv9bL9Eug" label="PrimaryGPO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2k2-zEeyzaIv9bL9Eug" label="MktSegmentCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2lG-zEeyzaIv9bL9Eug" label="TotalLicenseBeds" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2lW-zEeyzaIv9bL9Eug" label="TotalCensusBeds" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2lm-zEeyzaIv9bL9Eug" label="NumPatients" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2l2-zEeyzaIv9bL9Eug" label="TotalStaffedBeds" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2mG-zEeyzaIv9bL9Eug" label="TotalSurgeries" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2mW-zEeyzaIv9bL9Eug" label="TotalProcedures" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2mm-zEeyzaIv9bL9Eug" label="ORSurgeries" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2m2-zEeyzaIv9bL9Eug" label="ResidentProgram" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2nG-zEeyzaIv9bL9Eug" label="ResidentCount" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2nW-zEeyzaIv9bL9Eug" label="NumsOfProviders" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2nm-zEeyzaIv9bL9Eug" label="Formulary" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2n2-zEeyzaIv9bL9Eug" label="CMSCoveredForTeaching" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2oG-zEeyzaIv9bL9Eug" label="CommHosp" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2oW-zEeyzaIv9bL9Eug" label="EmailDomain" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2om-zEeyzaIv9bL9Eug" label="StatusIMS" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2o2-zEeyzaIv9bL9Eug" label="Status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2pG-zEeyzaIv9bL9Eug" label="CompanyType" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2pW-zEeyzaIv9bL9Eug" label="FoundedYear" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2pm-zEeyzaIv9bL9Eug" label="LegalDomicile" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2p2-zEeyzaIv9bL9Eug" label="OwnershipStatus" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2qG-zEeyzaIv9bL9Eug" label="ProfitStatus" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2qW-zEeyzaIv9bL9Eug" label="CMI" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2qm-zEeyzaIv9bL9Eug" label="WebsiteURL" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2q2-zEeyzaIv9bL9Eug" label="StatusUpdateDate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2rG-zEeyzaIv9bL9Eug" label="StatusReasonCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2rW-zEeyzaIv9bL9Eug" label="Commenters" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2rm-zEeyzaIv9bL9Eug" label="ValidationStatus" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2r2-zEeyzaIv9bL9Eug" label="ValidationChangeReason" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2sG-zEeyzaIv9bL9Eug" label="ValidationChangeDate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2sW-zEeyzaIv9bL9Eug" label="CreateDate" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2sm-zEeyzaIv9bL9Eug" label="UpdateDate" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2s2-zEeyzaIv9bL9Eug" label="CheckDate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2tG-zEeyzaIv9bL9Eug" label="StateCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2tW-zEeyzaIv9bL9Eug" label="StatusChangeReason" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2tm-zEeyzaIv9bL9Eug" label="NumEmployees" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2t2-zEeyzaIv9bL9Eug" label="NumMedEmployees" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2uG-zEeyzaIv9bL9Eug" label="TotalBedsIntensiveCare" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2uW-zEeyzaIv9bL9Eug" label="NumExaminationRoom" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2um-zEeyzaIv9bL9Eug" label="NumAffiliatedSites" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2u2-zEeyzaIv9bL9Eug" label="NumEnrolledMembers" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2vG-zEeyzaIv9bL9Eug" label="NumInPatients" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2vW-zEeyzaIv9bL9Eug" label="NumOutPatients" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2vm-zEeyzaIv9bL9Eug" label="NumOperatingRooms" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2v2-zEeyzaIv9bL9Eug" label="NumPatientsXWeek" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2wG-zEeyzaIv9bL9Eug" label="ActTypeCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2wW-zEeyzaIv9bL9Eug" label="DispenseDrugs" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2wm-zEeyzaIv9bL9Eug" label="NumPrescribers" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2w2-zEeyzaIv9bL9Eug" label="PatientsXYear" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2xG-zEeyzaIv9bL9Eug" label="AcceptsNewPatients" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2xW-zEeyzaIv9bL9Eug" label="ClassofTradeN_Priority_Classification_FacilityType_Specialty_SubCategory" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2xm-zEeyzaIv9bL9Eug" label="SubSourceName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2x2-zEeyzaIv9bL9Eug" label="CorpParentName" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2yG-zEeyzaIv9bL9Eug" label="OwnerSubName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2yW-zEeyzaIv9bL9Eug" label="SubTypeCode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2ym-zEeyzaIv9bL9Eug" label="ManagerHcoName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2y2-zEeyzaIv9bL9Eug" label="UCINumber" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2zG-zEeyzaIv9bL9Eug" label="RequiresAttention" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2zW-zEeyzaIv9bL9Eug" label="Roles_RoleType_RoleName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2zm-zEeyzaIv9bL9Eug" label="LegalType" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX2z2-zEeyzaIv9bL9Eug" label="PatientProfile" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX20G-zEeyzaIv9bL9Eug" label="HQBranch" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX20W-zEeyzaIv9bL9Eug" label="FundingSource" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX20m-zEeyzaIv9bL9Eug" label="PatientSource" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX202-zEeyzaIv9bL9Eug" label="NHSContract" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AsX21G-zEeyzaIv9bL9Eug" label="RocheOnly" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

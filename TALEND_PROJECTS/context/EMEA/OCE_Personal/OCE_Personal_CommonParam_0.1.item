@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tIMmUOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tIMmUeuzEeyrrccT1fvlcQ" comment="Target path for PDIL extract files" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="H:/studio/remote/ocepinputfiles/output/"/>
+    <contextParameter xmi:id="_tIMmUuuzEeyrrccT1fvlcQ" comment="Source path for PDIL related source file" name="SRC_DIR" prompt="SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/SRC_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIMmU-uzEeyrrccT1fvlcQ" comment="Temporary path for internediate file" name="TEMP_DIR" prompt="TEMP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/TEMP/&quot;"/>
+    <contextParameter xmi:id="_tIMmVOuzEeyrrccT1fvlcQ" comment="Folder for lookup files" name="LKP_DIR" prompt="LKP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/LOOKUP/&quot;"/>
+    <contextParameter xmi:id="_tIMmVeuzEeyrrccT1fvlcQ" comment="Target Load format" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV&quot;"/>
+    <contextParameter xmi:id="_tIMmVuuzEeyrrccT1fvlcQ" comment="Script Directory" name="SCRIPT_DIR" prompt="SCRIPT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/Scripts/EMEA/OCE_Personal&quot;"/>
+    <contextParameter xmi:id="_tIMmV-uzEeyrrccT1fvlcQ" comment="Timestamp for file" name="FILETIMESTAMP" prompt="FILETIMESTAMP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tIMmWOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tIMmWeuzEeyrrccT1fvlcQ" comment="Target path for PDIL extract files" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tIMmWuuzEeyrrccT1fvlcQ" comment="Source path for PDIL related source file" name="SRC_DIR" prompt="SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/SRC_DIR/&quot;"/>
+    <contextParameter xmi:id="_tIMmW-uzEeyrrccT1fvlcQ" comment="Temporary path for internediate file" name="TEMP_DIR" prompt="TEMP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/TEMP/&quot;"/>
+    <contextParameter xmi:id="_tIMmXOuzEeyrrccT1fvlcQ" comment="Folder for lookup files" name="LKP_DIR" prompt="LKP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/EMEA/OCEPersonal/LOOKUP/&quot;"/>
+    <contextParameter xmi:id="_tIMmXeuzEeyrrccT1fvlcQ" comment="Target Load format" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV&quot;"/>
+    <contextParameter xmi:id="_tIMmXuuzEeyrrccT1fvlcQ" comment="Script Directory" name="SCRIPT_DIR" prompt="SCRIPT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/Scripts/EMEA/OCE_Personal&quot;"/>
+    <contextParameter xmi:id="_tIMmX-uzEeyrrccT1fvlcQ" comment="Timestamp for file" name="FILETIMESTAMP" prompt="FILETIMESTAMP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tINNYOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tINNYeuzEeyrrccT1fvlcQ" comment="Target path for PDIL extract files" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="H:/studio/remote/ocepinputfiles/output/"/>
+    <contextParameter xmi:id="_tINNYuuzEeyrrccT1fvlcQ" comment="Source path for PDIL related source file" name="SRC_DIR" prompt="SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/OUT_DIR/GLOBAL/PDIL/SourceFiles/&quot;"/>
+    <contextParameter xmi:id="_tINNY-uzEeyrrccT1fvlcQ" comment="Temporary path for internediate file" name="TEMP_DIR" prompt="TEMP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/OUT_DIR/GLOBAL/PDIL/TempFiles/&quot;"/>
+    <contextParameter xmi:id="_tINNZOuzEeyrrccT1fvlcQ" comment="Folder for lookup files" name="LKP_DIR" prompt="LKP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;/talend_data_shared/EPICX/OUT_DIR/GLOBAL/PDIL/LookupFiles/&quot;"/>
+    <contextParameter xmi:id="_tINNZeuzEeyrrccT1fvlcQ" comment="Target Load format" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV&quot;"/>
+    <contextParameter xmi:id="_tINNZuuzEeyrrccT1fvlcQ" comment="Script Directory" name="SCRIPT_DIR" prompt="SCRIPT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tINNZ-uzEeyrrccT1fvlcQ" comment="Timestamp for file" name="FILETIMESTAMP" prompt="FILETIMESTAMP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tINNaOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tINNaeuzEeyrrccT1fvlcQ" comment="Target path for PDIL extract files" name="OUT_DIR" prompt="OUT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_tINNauuzEeyrrccT1fvlcQ" comment="Source path for PDIL related source file" name="SRC_DIR" prompt="SRC_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/PDIL/&quot;"/>
+    <contextParameter xmi:id="_tINNa-uzEeyrrccT1fvlcQ" comment="Temporary path for internediate file" name="TEMP_DIR" prompt="TEMP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/PDIL/TEMP/&quot;"/>
+    <contextParameter xmi:id="_tINNbOuzEeyrrccT1fvlcQ" comment="Folder for lookup files" name="LKP_DIR" prompt="LKP_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="&quot;C:/MyWorkSpace/EpiCXDataHub/DataHub_Phase1/PDIL/LOOKUP/&quot;"/>
+    <contextParameter xmi:id="_tINNbeuzEeyrrccT1fvlcQ" comment="Target Load format" name="TARGET_LOAD" prompt="TARGET_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;CSV&quot;"/>
+    <contextParameter xmi:id="_tINNbuuzEeyrrccT1fvlcQ" comment="Script Directory" name="SCRIPT_DIR" prompt="SCRIPT_DIR?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
+    <contextParameter xmi:id="_tINNb-uzEeyrrccT1fvlcQ" comment="Timestamp for file" name="FILETIMESTAMP" prompt="FILETIMESTAMP?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

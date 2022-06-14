@@ -1,0 +1,47 @@
+package routines;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;
+
+
+/**
+     * cr_DH_timeConversionToCET: return String value, convert time to CET timezone.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} Date(yyyy-MM-dd HH:mm:ss z) input: The date need to be converted.
+     * 
+     * {example} cr_DH_timeConversionToCET.cetTZ(2021-01-07 16:27:13 SGT) # 2021-01-07 09:27:13 CET !.
+     */
+	 
+
+public class cr_DH_timeConversionToCET 
+{
+   
+    public static String cetTZ(String Inputdate) throws Exception
+    {
+    	String BASE_FORMAT = "yyyy-MM-dd HH:mm:ss z";
+    	   
+    	
+    	TimeZone utcTZ = TimeZone.getTimeZone("UTC");
+    	TimeZone cetTimeZone = TimeZone.getTimeZone("Europe/Amsterdam"); //Target timezone
+         
+    
+    	SimpleDateFormat formatUTC = new SimpleDateFormat( BASE_FORMAT );
+    	formatUTC.setTimeZone(utcTZ);
+    	
+    	SimpleDateFormat formatCE = new SimpleDateFormat( BASE_FORMAT );
+    	formatCE.setTimeZone(cetTimeZone); 
+    	
+    	String localDateTime = Inputdate;
+    	Date dateTimeLocal = formatUTC.parse(localDateTime);
+    
+    	return formatCE.format(dateTimeLocal);
+
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJVOwOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tJVOweuzEeyrrccT1fvlcQ" comment="Host string for IDW Informatica unix folders" name="connection_IDWSFTP_Host" prompt="connection_IDWSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rkaubidwdev01.kau.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJVOwuuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_IDWSFTP_User" prompt="connection_IDWSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uidw7008"/>
+    <contextParameter xmi:id="_tJVOw-uzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_IDWSFTP_Password" prompt="connection_IDWSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:8mCti4Pnaopj2iJSqHdg5K1/4CCCgRiVmr8mWdovYYG+KZr2MCWRZ7oC9nA="/>
+    <contextParameter xmi:id="_tJVOxOuzEeyrrccT1fvlcQ" comment="" name="connection_IDWSFTP_Port" prompt="connection_IDWSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJVOxeuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tJVOxuuzEeyrrccT1fvlcQ" comment="Host string for IDW Informatica unix folders" name="connection_IDWSFTP_Host" prompt="connection_IDWSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rkaubidwdev01.kau.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJVOx-uzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_IDWSFTP_User" prompt="connection_IDWSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uidw7008"/>
+    <contextParameter xmi:id="_tJVOyOuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_IDWSFTP_Password" prompt="connection_IDWSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:d8Xoe/32OiCmLkfru5rv5T42668kc6u0xfjRDJ9DUhLa0Y8HPLZ4ZN+McGE="/>
+    <contextParameter xmi:id="_tJVOyeuzEeyrrccT1fvlcQ" comment="" name="connection_IDWSFTP_Port" prompt="connection_IDWSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJVOyuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tJVOy-uzEeyrrccT1fvlcQ" comment="Host string for IDW Informatica unix folders" name="connection_IDWSFTP_Host" prompt="connection_IDWSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;rbausidwpr08.bas.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJVOzOuzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_IDWSFTP_User" prompt="connection_IDWSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;uidw7008&quot;"/>
+    <contextParameter xmi:id="_tJVOzeuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_IDWSFTP_Password" prompt="connection_IDWSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SmctP2wqTV9LCpysGm2a5RtrlICvD/zsqfGxMQfTZbq1H56uyT/HqisyWzc="/>
+    <contextParameter xmi:id="_tJVOzuuzEeyrrccT1fvlcQ" comment="" name="connection_IDWSFTP_Port" prompt="connection_IDWSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJVOz-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJVO0OuzEeyrrccT1fvlcQ" comment="Host string for IDW Informatica unix folders" name="connection_IDWSFTP_Host" prompt="connection_IDWSFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;infaidw-tst01.roche.com&quot;"/>
+    <contextParameter xmi:id="_tJVO0euzEeyrrccT1fvlcQ" comment="User for login to remote unix folder" name="connection_IDWSFTP_User" prompt="connection_IDWSFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;uidw7008&quot;"/>
+    <contextParameter xmi:id="_tJVO0uuzEeyrrccT1fvlcQ" comment="Password for login to remote unix folder" name="connection_IDWSFTP_Password" prompt="connection_IDWSFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:s240KCXdBd85of8C5PTiCvqEMijE2qZ9nTpJSlFxSUNx65flqQ8bXgZ0ETY="/>
+    <contextParameter xmi:id="_tJVO0-uzEeyrrccT1fvlcQ" comment="" name="connection_IDWSFTP_Port" prompt="connection_IDWSFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+</xmi:XMI>

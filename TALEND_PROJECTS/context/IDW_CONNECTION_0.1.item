@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_tI5J4OuzEeyrrccT1fvlcQ" name="Default">
+  <contextParameter xmi:id="_tI5J4euzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_HOST" prompt="IDW_SFTP_HOST?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_tI5J4uuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_PASSWORD" prompt="IDW_SFTP_PASSWORD?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_tI5J4-uzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_USERNAME" prompt="IDW_SFTP_USERNAME?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_tI5J5OuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_PORT" prompt="IDW_SFTP_PORT?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_tI5J5euzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_PRIVATE_KEY" prompt="IDW_SFTP_PRIVATE_KEY?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_tI5J5uuzEeyrrccT1fvlcQ" comment="" name="IDW_SFTP_KEY_PASSPHRASE" prompt="IDW_SFTP_KEY_PASSPHRASE?" promptNeeded="false" type="id_Password" value=""/>
+</talendfile:ContextType>

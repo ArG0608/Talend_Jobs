@@ -1,0 +1,118 @@
+package routines;
+
+
+public class cr_DH_fileNameForIdealDataReltioMdm {
+
+    /**
+     * idealDataFileName: return string value, file name for matched pattern.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("COR_MDM_EDUCATION") input: The string which is the current table name.
+     * 
+     * {example} idealDataFileName("COR_MDM_EDUCATION") # MDM_GenericExtract_DEGREE !.
+	 * {example} idealDataFileName("MDM_GenericExtract_DEGREE") # degree !.
+     */
+    public static String idealDataFileName(String pattern) {
+       
+    	String fileName = "";
+    	
+    	switch(pattern) 
+        { 
+            case "COR_MDM_EDUCATION"		:  	fileName = "MDM_GenericExtract_DEGREE";
+            			 		break; 
+            case "COR_MDM_CUSTOMER_ADDRESS"	:  	fileName = "MDM_GenericExtract_CUST_ADDRESS";
+			 					break;  
+            case "COR_MDM_ADDITIONAL_ATTR"	: 	fileName = "MDM_GenericExtract_ADDITIONAL_ATTR";
+			 					break; 	
+            case "COR_MDM_HCP"	:  	fileName = "MDM_GenericExtract_HCP";
+			 					break; 	
+            case "COR_MDM_ROLES"	: 	fileName = "MDM_GenericExtract_AFFILROLES";
+			 					break; 				 			
+            case "COR_MDM_EXTERNAL_CODE"	: 	fileName = "Generic_External_Code_Extract";
+			 					break; 		
+            case "COR_MDM_MERGE"		: 	fileName = "MDM_GenericExtract_MERGE";
+			 					break; 		
+            case "COR_MDM_HCO"	: 	fileName = "MDM_GenericExtract_HCO";
+			 					break; 
+            case "COR_MDM_COMMUNICATION"		:  	fileName = "MDM_GenericExtract_COMM";
+            			 		break; 
+            case "COR_MDM_CODE"	:  	fileName = "Generic_Code_Extract";
+			 					break;  
+            case "COR_MDM_AFFILIATION"	: 	fileName = "MDM_GenericExtract_AFFILIATION";
+			 					break; 	
+            case "COR_MDM_IDENTIFIER"	:  	fileName = "MDM_GenericExtract_IDENTIFIER";
+			 					break; 	
+            case "COR_MDM_ADDRESS"	: 	fileName = "MDM_GenericExtract_ADDRESS";
+			 					break; 				 			
+            case "COR_MDM_SPECIALITY"	: 	fileName = "MDM_GenericExtract_SPECIALITY";
+			 					break; 		
+            case "COR_MDM_BUSINESSHOURS"		: 	fileName = "MDM_GenericExtract_BUSINESSHOURS";
+			 					break; 		
+            case "COR_MDM_PRIVACYPREFERENCES"	: 	fileName = "MDM_GenericExtract_PRIVACYPREFERNCES";
+			 					break; 
+            case "COR_MDM_CROSS_REFERENCE"		: 	fileName = "MDM_GenericExtract_XREF";
+			 					break; 		
+            case "COR_MDM_CODE_DESCRIPTION"	: 	fileName = "Generic_Code_Description_Extract";
+			 					break;
+            case "MDM_GenericExtract_DEGREE"		:  	fileName = "degree";
+            			 		break; 
+            case "MDM_GenericExtract_CUST_ADDRESS"	:  	fileName = "cust_address";
+			 					break;  
+            case "MDM_GenericExtract_ADDITIONAL_ATTR"	: 	fileName = "additional_attr";
+			 					break; 	
+            case "MDM_GenericExtract_HCP"	:  	fileName = "hcp";
+			 					break; 	
+            case "MDM_GenericExtract_AFFILROLES"	: 	fileName = "affilroles";
+			 					break; 				 			
+            case "Generic_External_Code_Extract"	: 	fileName = "external_code";
+			 					break; 		
+            case "MDM_GenericExtract_MERGE"		: 	fileName = "merge";
+			 					break; 		
+            case "MDM_GenericExtract_HCO"	: 	fileName = "hco";
+			 					break; 
+            case "MDM_GenericExtract_COMM"		:  	fileName = "comm";
+            			 		break; 
+            case "Generic_Code_Extract"	:  	fileName = "code";
+			 					break;  
+            case "MDM_GenericExtract_AFFILIATION"	: 	fileName = "affiliation";
+			 					break; 	
+            case "MDM_GenericExtract_IDENTIFIER"	:  	fileName = "identifier";
+			 					break; 	
+            case "MDM_GenericExtract_ADDRESS"	: 	fileName = "address";
+			 					break; 				 			
+            case "MDM_GenericExtract_SPECIALITY"	: 	fileName = "speciality";
+			 					break; 		
+            case "MDM_GenericExtract_BUSINESSHOURS"		: 	fileName = "businesshours";
+			 					break; 		
+            case "MDM_GenericExtract_PRIVACYPREFERNCES"	: 	fileName = "privacyprefernces";
+			 					break; 
+            case "MDM_GenericExtract_XREF"		: 	fileName = "xref";
+			 					break; 		
+            case "Generic_Code_Description_Extract"	: 	fileName = "code_description";
+			 					break;		
+            case "Generic_Code_Parents"	: 	fileName = "code_parents";
+								break;	
+            case "MDM_GenericExtract_ADDRESS_Payer"	: 	fileName = "address";
+								break;	
+            case "MDM_GenericExtract_AFFILIATION_Payer"	: 	fileName = "affiliation";
+								break;
+            case "MDM_GenericExtract_COMM_Payer"	: 	fileName = "comm";
+								break;
+            case "MDM_GenericExtract_CUST_ADDRESS_Payer"	: 	fileName = "cust_address";
+								break;
+            case "MDM_GenericExtract_IDENTIFIER_Payer"	: 	fileName = "identifier";
+								break;
+            case "MDM_GenericExtract_MCO_Payer"	: 	fileName = "mco";
+								break;
+            case "MDM_GenericExtract_Merge_Payer"	: 	fileName = "merge";
+								break;
+            case "MDM_GenericExtract_XREF_Payer"	: 	fileName = "xref";
+								break;
+        } 
+		return fileName;
+    }
+}

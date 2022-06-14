@@ -1,0 +1,47 @@
+package routines;
+
+
+public class cr_DH_fileNameForIdealData {
+
+    /**
+     * idealDataFileName: return string value, file name for matched pattern.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("PRD") input: The string which is the current table name.
+     * 
+     * {example} idealDataFileName("PRD") # _Product_ !.
+     */
+    public static String idealDataFileName(String pattern) {
+       
+        String fp = pattern.substring(pattern.lastIndexOf("_")+1, pattern.length());
+    	String fileName = "";
+    	
+    	switch(fp) 
+        { 
+            case "PRD"		:  	fileName = "_Product_";
+            			 		break; 
+            case "MSGPRD"	:  	fileName = "_Message_Product_";
+			 					break;  
+            case "MSGMTDT"	: 	fileName = "_Message_Metadata_";
+			 					break; 	
+            case "JNYPRD"	:  	fileName = "_Journey_Product_";
+			 					break; 	
+            case "JNYMTDT"	: 	fileName = "_Journey_Metadata_";
+			 					break; 				 			
+            case "HCPITRT"	: 	fileName = "_HCP_Interaction_";
+			 					break; 		
+            case "CNT"		: 	fileName = "_Contact_";
+			 					break; 		
+            case "CLKACTV"	: 	fileName = "_Click_Activity_";
+			 					break; 
+            case "HCPCNST"	: 	fileName = "_HCP_Consent_";
+				break; 
+    
+        } 
+		return fileName;
+    }
+}

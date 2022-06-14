@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_tJkfUOuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_tJkfUeuzEeyrrccT1fvlcQ" comment="Host string for SFTP server" name="connection_SFTP_Host" prompt="connection_SFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ftp-eu.oce-digital.com"/>
+    <contextParameter xmi:id="_tJkfUuuzEeyrrccT1fvlcQ" comment="User for login to SFTP server" name="connection_SFTP_User" prompt="connection_SFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RocheSandboxOCEDSwitzerland"/>
+    <contextParameter xmi:id="_tJkfU-uzEeyrrccT1fvlcQ" comment="Password for login to SFTP server" name="connection_SFTP_Password" prompt="connection_SFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:1i48v7MSpt185UDDNs1CoKNdwK01pKNXkNCDmhuSahhTLVftWeKxJQP/u3k="/>
+    <contextParameter xmi:id="_tJkfVOuzEeyrrccT1fvlcQ" comment="Port for login to SFTP server" name="connection_SFTP_Port" prompt="connection_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJkfVeuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_tJkfVuuzEeyrrccT1fvlcQ" comment="Host string for SFTP server" name="connection_SFTP_Host" prompt="connection_SFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ftp-eu.oce-digital.com"/>
+    <contextParameter xmi:id="_tJkfV-uzEeyrrccT1fvlcQ" comment="User for login to SFTP server" name="connection_SFTP_User" prompt="connection_SFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RocheSandboxOCEDCzechRepublic"/>
+    <contextParameter xmi:id="_tJkfWOuzEeyrrccT1fvlcQ" comment="Password for login to SFTP server" name="connection_SFTP_Password" prompt="connection_SFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:pTtzMTizVx8Qfi9Kp2MM43o4EOT3ciy4eA0RL7ZMifddUX1F54BWOfm3l88="/>
+    <contextParameter xmi:id="_tJkfWeuzEeyrrccT1fvlcQ" comment="Port for login to SFTP server" name="connection_SFTP_Port" prompt="connection_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJkfWuuzEeyrrccT1fvlcQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_tJkfW-uzEeyrrccT1fvlcQ" comment="Host string for SFTP server" name="connection_SFTP_Host" prompt="connection_SFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ftp-eu.oce-digital.com&quot;"/>
+    <contextParameter xmi:id="_tJkfXOuzEeyrrccT1fvlcQ" comment="User for login to SFTP server" name="connection_SFTP_User" prompt="connection_SFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RocheProductionOCEM"/>
+    <contextParameter xmi:id="_tJkfXeuzEeyrrccT1fvlcQ" comment="Password for login to SFTP server" name="connection_SFTP_Password" prompt="connection_SFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:txVbLBGs6I4A7HL2IS2uCdo7P5AqV6EqvxFeJF4OYi3pREoUvm0ekZfxTbY="/>
+    <contextParameter xmi:id="_tJkfXuuzEeyrrccT1fvlcQ" comment="Port for login to SFTP server" name="connection_SFTP_Port" prompt="connection_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tJkfX-uzEeyrrccT1fvlcQ" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_tJkfYOuzEeyrrccT1fvlcQ" comment="Host string for SFTP server" name="connection_SFTP_Host" prompt="connection_SFTP_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ftp-eu.oce-digital.com&quot;"/>
+    <contextParameter xmi:id="_tJkfYeuzEeyrrccT1fvlcQ" comment="User for login to SFTP server" name="connection_SFTP_User" prompt="connection_SFTP_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RocheSandboxOCEM"/>
+    <contextParameter xmi:id="_tJkfYuuzEeyrrccT1fvlcQ" comment="Password for login to SFTP server" name="connection_SFTP_Password" prompt="connection_SFTP_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:C7TN4nlMSyopFYmfwBZuHvl6xgcULiwd6+UqLhK+meyv53m8slUunuWfXuk="/>
+    <contextParameter xmi:id="_tJkfY-uzEeyrrccT1fvlcQ" comment="Port for login to SFTP server" name="connection_SFTP_Port" prompt="connection_SFTP_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="22"/>
+  </talendfile:ContextType>
+</xmi:XMI>
